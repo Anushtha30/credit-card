@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.credit-card {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  background: linear-gradient(145deg, #ff7e5f, #feb47b);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.card-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-number, .card-name, .card-expiry {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.card-number {
+  margin: 20px 0;
+}
